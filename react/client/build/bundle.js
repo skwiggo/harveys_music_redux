@@ -19785,7 +19785,13 @@
 	      React.createElement(
 	        'h2',
 	        null,
-	        'Store'
+	        'Harvey\'s Music'
+	      ),
+	      React.createElement('img', { src: 'http://www.premierguitar.com/ext/resources/images/content/2015-08/Blogs/Oct15-Vintage-Vault/DGS-Vault-1972-Lake-Placid-Blue-Fender-Jaguar-C_WEB.jpg', width: '300px', height: '300px' }),
+	      React.createElement(
+	        'h3',
+	        null,
+	        'Current Inventory:'
 	      ),
 	      React.createElement(StoreDetail, { inventory: this.state.inventory })
 	    );
