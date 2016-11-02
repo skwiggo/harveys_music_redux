@@ -2,7 +2,7 @@ class ArtistsController < ApplicationController
 
   def index
     artists = Artist.all()
-    render :json => artists.as_json(include: [:albums => {include: [:stocks]}], except: [:created_at, :updated_at])
+    render :json => artists.as_json(include: [:albums => {include: [:stocks]}])
   end
 
   def show
